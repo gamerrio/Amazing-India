@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homepage</title>
+        <link rel="stylesheet" href="css/styles.css" />    
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@0.7.4/dist/tailwind.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css" rel="stylesheet" />
+        <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Sofia|Dosis&effect=neon|outline" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="container-fluid">
+          <!-- Navbar content with toggle sidebar button -->
+          <div class="navbar-content">
+            <button class="btn btn-action" type="button" onclick="halfmoon.toggleSidebar()">
+              <i class="fa fa-bars" aria-hidden="true"></i>
+              <span class="sr-only">Toggle sidebar</span> <!-- sr-only = show only on screen readers -->
+            </button>
+          </div>
+          <!-- Navbar content with sign up button -->
+          <div class="navbar-content ml-auto"> <!-- ml-auto = margin-left: auto -->
+            <button class="btn btn-action" type="button" onclick="halfmoon.toggleDarkMode()"><i class="fa fa-sun-o" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </nav>
+      <!--Home section-->
+        <section class="home-section">
+            <img id="bg" src="img/1.png" alt="image1" />
+            <img id="mid" src="img/2.png" alt="image2" />
+            <img id="front" src="img/3.png" alt="image3" />
+        </section>
+        <img id="riksha" src="img/riksha.png" alt="image3" />
+        <section class="about-section" id="about">
+          <h1 class="font-effect-outline" id="greet">&nbsp; नमस्ते</h1> 
+          <section>
+            <!--Card 1-->
+            <div class="card">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-6 "><image class="img-fluid rounded" src="img/gate.png"></image></div>
+                    <div class="col-1 "></div>
+                      <div class="col-4 ">
+                        <h1 class="text-center">Amazing India!</h1>
+                      <p class="text-md-center text-justify">
+                        <h5>
+                      India is known for its warm and welcoming people who show kindness and generosity to all, regardless of background. The country's culture places great importance on hospitality and helping those in need, making India a wholesome and uplifting place to visit.
+                      </h5>
+                    </p>
+                    </div>
+                    <div class="col-1 "></div>
+                </div>
+            </div>
+          </div>
+          <!--Card 1 end-->
+
+          <!--Card 2-->
+          <div class="card">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-1 "></div>
+                  <div class="col-4 ">
+                    <h1 class="text-center">Religions</h1>
+                  <p class="text-md-center text-justify">
+                    <h5>
+                      India has a diverse religious landscape, with the major religions being Hinduism, Islam, Christianity, Sikhism, Buddhism, and Jainism. Despite their differences, there is a spirit of tolerance and acceptance that runs deep in Indian culture, allowing people of different faiths to coexist peacefully.
+                  </h5>
+                </p>
+                </div>
+                <div class="col-1 "></div>
+                <div class="col-6 "><image class="img-fluid rounded" src="img/religion.png"></image></div>
+            </div>
+        </div>
+      </div>
+      <!--Card 2 end-->
+      <!--Card 3-->
+      <div class="card">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-6 "><image class="img-fluid rounded" src="img/mountain.png"></image></div>
+            <div class="col-1 "></div>
+              <div class="col-4 ">
+                <h1 class="text-center">landscape</h1>
+              <p class="text-md-center text-justify">
+                <h5>
+                  The landscape of India is diverse and beautiful, encompassing everything from snow-capped mountains and rolling hills to lush forests and vast deserts. The country is home to a wide range of plant and animal species, including tigers, elephants, rhinos, and more. The natural beauty of India's landscape is a major draw for tourists, who come to explore its many national parks, wildlife reserves, and scenic spots.
+              </h5>
+            </p>
+            </div>
+            <div class="col-1 "></div>
+        </div>
+    </div>
+  </div>
+  <!--Card 3 end-->
+  <!--Card 4-->
+  <div class="card">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-1 "></div>
+          <div class="col-4 ">
+            <h1 class="text-center">Festivals</h1>
+          <p class="text-md-center text-justify">
+            <h5>
+              Festivals are an integral part of Indian culture, reflecting the country's rich heritage and diversity. There are numerous festivals celebrated throughout the year, including Diwali, Holi, Durga Puja, Eid, Christmas, and more. Each festival is marked by its own unique traditions, rituals, and cuisine, and is a time for family and community gatherings, feasting, and merriment. Festivals provide a glimpse into the vibrant and colorful culture of India, and are a must-see for any visitor to the country.
+          </h5>
+        </p>
+        </div>
+        <div class="col-1 "></div>
+        <div class="col-6 "><image class="img-fluid rounded" src="img/diwali.png"></image></div>
+    </div>
+</div>
+</div>
+<!--Card 4 end-->
+  <!--Card 5-->
+  <div class="card">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6 "><image class="img-fluid rounded" id="people" src="img/women.png"></image></div>
+        <div class="col-1 "></div>
+          <div class="col-4 ">
+            <h1 class="text-center">People</h1>
+          <p class="text-md-center text-justify">
+            <h5>
+              The people of India are diverse, warm, and welcoming. They are known for their hospitality and generosity, and are always ready to help those in need. Despite differences in language, religion, and culture, there is a spirit of unity in diversity that pervades Indian society. Indian people have a deep respect for tradition and family, and are proud of their country's rich cultural heritage. Overall, the people of India are one of the country's greatest assets, making it a truly special and welcoming place.
+          </h5>
+        </p>
+        </div>
+        <div class="col-1 "></div>
+    </div>
+  </div>
+  </div>
+  <center><a href="#" class="btn my-10" id="btn">Scroll Up</a></center>
+  <!--Card 5 end-->
+          </section>
+          <section>
+            <div class="footer">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-1"></div>
+                  <div class="col-5">
+                  <h5><strong>Harshitkatiyar</strong>.codes</h5>
+                  <a href="#" class="btn btn-square btn-primary rounded-circle" role="button"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-square rounded-circle" id="linkedin" role="button"><i class="fa fa-linkedin " aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-square rounded-circle" id="youtube" role="button"><i class="fa fa-youtube " aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-square rounded-circle" id="instagram" role="button"><i class="fa fa-instagram" aria-hidden="true"></i></a>  
+
+                  <h6>Sample site showcase web development skill</h6>
+                  <h6>Created by Harshit Katiyar</h6>
+                  </div>
+                  <div class="col-4">
+                    <h6> Contact me at: </h6>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">Name</span>
+                        </div>
+                        <input type="text" class="form-control  flex-reset w-200" placeholder="">
+                    </div>
+                    <div class="input-group my-10">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">Email&nbsp;</span>
+                        </div>
+                        <input type="text" class="form-control  flex-reset w-200" placeholder="">
+                    </div>
+                    <div class="input-group my-10">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">About</span>
+                      </div>
+                      <textarea class="form-control  flex-reset w-200" placeholder="Tell us about yourself"></textarea>
+                    </div>
+                    <button class="btn">Submit</button>
+                </div>
+                
+                <div class="col-1">
+                  <br>
+                  Privacy<br>
+                  Terms Of Use<br>
+                  Contact Us<br>
+                  <a>Homepage</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <script>halfmoon.toggleDarkMode();</script>
+          <script src="js/script.js"></script>
+    </body>
+</html>
